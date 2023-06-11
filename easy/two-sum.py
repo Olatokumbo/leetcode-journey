@@ -5,7 +5,6 @@
 # You can return the answer in any order.
 
 def twoSum(nums: list[int], target: int):
-
     newMap = {}
     for i in range(len(nums)):
         difference = target - nums[i]
